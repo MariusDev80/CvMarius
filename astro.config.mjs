@@ -8,6 +8,9 @@ import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
+  site : "https://MariusDev80.github.io",
+  base : "CvMarius",
+  trailingSlash : "always",
   integrations: [
     tailwind(),
     mdx(),
@@ -28,5 +31,4 @@ export default defineConfig({
   ],
   output: "hybrid",
   adapter: vercel(),
-  site: "https://arielfalcon.me",
 });
