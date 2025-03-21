@@ -1,0 +1,537 @@
+{
+  "analyticsCode": "",
+  "basics": {
+    "name": "Marius Dudouet",
+    "label": "Software Developer",
+    "animated_main_label": "developer",
+    "animated_secondary_initial_label": "software",
+    "animated_secondary_final_label": "front_end",
+    "image": "/pfp.webp",
+    "email": "marius.dudouet@outlook.fr",
+    "url": "https://www.linkedin.com/in/marius-dudouet/",
+    "summary": "Je suis actuellement étudiant en BTS SIO option SLAM au Lycée Carcouet. J'ai obtenu un Baccalauréat Général avec mention AB au Lycée St. Félix la Salle, où j'ai étudié le Numérique et Sciences Informatiques (NSI) et l'Anglais Monde Contemporain (AMC). Après mon BTS, je souhaite poursuivre mes études en Licence MIAGE. J'ai une passion pour le développement web et j'aime travailler sur des projets qui me permettent de mettre en pratique mes compétences en programmation.",
+    "theme": "blue",
+    "location": {
+      "address": "Vigneux de Bretagne",
+      "city": "Nantes",
+      "countryCode": "FR",
+      "region": "France"
+    },
+    "profiles": [
+      {
+        "network": "X / Twitter",
+        "icon": "ri:twitter-fill",
+        "color": "#1DA1F2",
+        "username": "@mariusddt",
+        "url": "https://x.com/mariusddt"
+      },
+      {
+        "network": "LinkedIn",
+        "icon": "ri:linkedin-fill",
+        "color": "#0066C2",
+        "username": "Marius Dudouet",
+        "url": "https://www.linkedin.com/in/marius-dudouet/"
+      },
+      {
+        "network": "GitHub",
+        "icon": "mdi:github",
+        "color": "#929AAB",
+        "username": "MariusDev80",
+        "url": "https://github.com/MariusDev80"
+      },
+      {
+        "network": "Email",
+        "icon": "ri:mail-fill",
+        "color": "#D44638",
+        "username": "Marius Dudouet",
+        "url": "mailto:marius.dudouet@outlook.fr"
+      }
+    ]
+  },
+  "education": [
+    {
+      "institution": "Lycée Carcouet",
+      "url": "https://carcouet.paysdelaloire.e-lyco.fr/",
+      "area": "Services Informatiques aux Organisations (SLAM)",
+      "studyType": "BTS",
+      "startDate": "2023",
+      "endDate": "2025"
+    },
+    {
+      "institution": "Lycée St. Félix la Salle",
+      "url": "https://stfelixlasalle.fr/",
+      "area": "Numérique et Sciences Informatiques (NSI), Anglais Monde Contemporain (AMC)",
+      "studyType": "Baccalauréat Général - Mention AB",
+      "startDate": "2020",
+      "endDate": "2023"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "PIX - Niveau Indépendant 1",
+      "date": "2025-03-01",
+      "url": "",
+      "issuer": "PIX"
+    },
+    {
+      "name": "B2 First",
+      "date": "2023-05-01",
+      "url": "",
+      "issuer": "Cambridge"
+    }
+  ],
+  "work": [
+    {
+      "name": "La Poste",
+      "position": "Stagiaire Développeur Front/Back",
+      "location_type": "Sur site",
+      "location": "Nantes, France",
+      "url" : "https://www.laposte.fr",
+      "startDate": "2025-01",
+      "endDate": "2025-02",
+      "summary": "Refonte de la gestion des rôles et de l’attribution des droits lors de l’authentification à un API Manager. Développement de fonctionnalités Front/Back en Angular et Spring.",
+      "responsibilities": [
+        "Sécuriser la connexion à l’API Manager",
+        "Gérer les rôles et les droits des utilisateurs",
+        "Développer des fonctionnalités Front/Back en Angular et Spring",
+        "Respecter les normes de developpement",
+        "Sécuriser les appels API entre le back et le front"
+      ],
+      "achievements": [
+        "Mise en place d'une authentification sécurisée coté front et back",
+        "Refonte de la gestion des rôles et des droits des utilisateurs",
+        "Optimisation des performances de l'API Manager via des correctifs Sonar",
+        "Amélioration de l'interface utilisateur avec Angular",
+        "Implémentation de tests unitaires et d'intégration"
+      ],
+      "skills": {
+        "Angular": "simple-icons:angular",
+        "Spring": "simple-icons:spring",
+        "NodeJS": "ri:nodejs-line",
+        "Java": "ri:java-line",
+        "Jira": "simple-icons:jira",
+        "Confluence": "simple-icons:confluence",
+        "Git": "mdi:git",
+        "Postman": "simple-icons:postman",
+        "Swagger": "simple-icons:swagger"
+      }
+    },
+    {
+      "name": "Jardin des Plantes de Nantes",
+      "position": "Job Étudiant - Agent d’entretien/accueil",
+      "location_type": "Sur site",
+      "location": "Nantes, France",
+      "url" : "https://www.jardins.nantes.fr/jardin-des-plantes",
+      "startDate": "2024-07",
+      "endDate": "2024-08",
+      "summary": "Accueil et orientation des visiteurs, entretien des espaces publics et sanitaires, vente souvenirs et tenue de caisse."
+    },
+    {
+      "name": "Makina Corpus",
+      "position": "Stagiaire Développeur Front/Back",
+      "location_type": "Sur site / télétravail",
+      "location": "Nantes, France",
+      "url" : "https://www.makina-corpus.com",
+      "startDate": "2024-05",
+      "endDate": "2024-06",
+      "summary": "Création d’un outil de signature mail pour l’intranet. L'outil permet aux employés de signer leurs mails avec une signature personnalisée selon une template prédéfinie et mettant a disposition plusieurs bannières. Le but est de renforcer l’image de marque de l’entreprise et de faciliter la communication. L'outil est développé en PHP/Symfony et utilise une base de données MySQL.",
+      "responsibilities": [
+        "Développer un outil de signature mail",
+        "Créer une interface utilisateur simple et intuitive",
+        "Gérer les templates de signature et les bannières selon le besoin de l'équipe marketing/communication",
+        "Sécuriser les données utilisateurs",
+        "Respecter les normes de développement"
+      ],
+      "achievements": [
+        "Création d'un outil simple et intuitif",
+        "Mise en place d'une base de données sécurisée",
+        "Optimisation des performances de l'outil",
+        "Amélioration de l'interface utilisateur",
+        "Rendre la signature téléchargeable et utilisable sur plusieurs clients mail"
+      ],
+      "skills": {
+        "PHP": "simple-icons:php",
+        "Symfony": "simple-icons:symfony",
+        "MySQL": "simple-icons:mysql",
+        "JavaScript": "simple-icons:javascript",
+        "HTML": "simple-icons:html5",
+        "CSS": "simple-icons:css3",
+        "Git": "mdi:git"
+      }
+    },
+    {
+      "name": "E.Leclerc DRIVE",
+      "position": "Job Étudiant - Employé drive",
+      "location_type": "Sur site",
+      "location": "France",
+      "url" : "https://www.leclercdrive.fr/region-pays-de-la-loire/nantes/drive-nantes-ouest-rn-165.aspx",
+      "startDate": "2023-03",
+      "endDate": "2023-08",
+      "summary": "Préparation de commandes, réapprovisionnement, gestion clientèle, inventaire."
+    },
+    {
+      "name": "La Tôlerie Armoricaine",
+      "position": "Job Étudiant - Opérateur Polyvalent",
+      "location_type": "Sur site",
+      "location": "France",
+      "url" : "https://www.latoleriearmoricaine.com/",
+      "startDate": "2022-07",
+      "endDate": "2022-08",
+      "summary": "Sertissage, contrôles et emballage, lecture de fiches techniques."
+    },
+    {
+      "name": "La Tôlerie Armoricaine",
+      "position": "Job Étudiant - Opérateur Polyvalent",
+      "location_type": "Sur site",
+      "location": "France",
+      "url" : "https://www.latoleriearmoricaine.com/",
+      "startDate": "2021-07",
+      "endDate": "2021-08",
+      "summary": "Sertissage, contrôles et emballage, lecture de fiches techniques."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Angular",
+      "icon": "simple-icons:angular",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Framework",
+        "UI"
+      ]
+    },
+    {
+      "name": "Spring",
+      "icon": "simple-icons:spring",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "Java Framework",
+        "Web Development",
+        "API"
+      ]
+    },
+    {
+      "name": "NodeJS",
+      "icon": "ri:nodejs-line",
+      "level": "Intermediate",
+      "keywords": [
+        "Backend",
+        "JavaScript Runtime",
+        "Web Development",
+        "API"
+      ]
+    },
+    {
+      "name": "Java",
+      "icon": "ri:java-line",
+      "level": "Intermediate",
+      "keywords": [
+        "Programming Language",
+        "Backend",
+        "Web Development",
+        "OOP"
+      ]
+    },
+    {
+      "name": "Jira",
+      "icon": "simple-icons:jira",
+      "level": "Intermediate",
+      "keywords": [
+        "Project Management",
+        "Agile",
+        "Scrum",
+        "Issue Tracking"
+      ]
+    },
+    {
+      "name": "Confluence",
+      "icon": "simple-icons:confluence",
+      "level": "Intermediate",
+      "keywords": [
+        "Documentation",
+        "Collaboration",
+        "Knowledge Management",
+        "Wiki"
+      ]
+    },
+    {
+      "name": "Git",
+      "icon": "mdi:git",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Source Code Management",
+        "Collaboration",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "Postman",
+      "icon": "simple-icons:postman",
+      "level": "Intermediate",
+      "keywords": [
+        "API Testing",
+        "Development Tool",
+        "Automation",
+        "Collaboration"
+      ]
+    },
+    {
+      "name": "Swagger",
+      "icon": "simple-icons:swagger",
+      "level": "Intermediate",
+      "keywords": [
+        "API Documentation",
+        "API Development",
+        "OpenAPI",
+        "REST"
+      ]
+    },
+    {
+      "name": "PHP",
+      "icon": "simple-icons:php",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Backend",
+        "Scripting Language",
+        "Server-side"
+      ]
+    },
+    {
+      "name": "Symfony",
+      "icon": "simple-icons:symfony",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "PHP Framework",
+        "Backend",
+        "MVC"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "icon": "simple-icons:mysql",
+      "level": "Intermediate",
+      "keywords": [
+        "Database",
+        "SQL",
+        "Relational Database",
+        "Data Management"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "simple-icons:javascript",
+      "level": "Intermediate",
+      "keywords": [
+        "Programming Language",
+        "Web Development",
+        "Frontend",
+        "Backend"
+      ]
+    },
+    {
+      "name": "HTML",
+      "icon": "simple-icons:html5",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Markup Language",
+        "Frontend",
+        "UI"
+      ]
+    },
+    {
+      "name": "CSS",
+      "icon": "simple-icons:css3",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Styling",
+        "Frontend",
+        "UI"
+      ]
+    },
+    {
+      "name": "C#",
+      "icon": "simple-icons:csharp",
+      "level": "Intermediate",
+      "keywords": [
+        "Programming Language",
+        "Backend",
+        "Web Development",
+        "OOP"
+      ]
+    },
+    {
+      "name": "SQL Server",
+      "icon": "simple-icons:microsoftsqlserver",
+      "level": "Intermediate",
+      "keywords": [
+        "Database",
+        "SQL",
+        "Relational Database",
+        "Data Management"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "icon": "mdi:github",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Source Code Management",
+        "Collaboration",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "GitLab",
+      "icon": "mdi:gitlab",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control",
+        "Source Code Management",
+        "Collaboration",
+        "DevOps"
+      ]
+    },
+    {
+      "name": "UML",
+      "icon": "simple-icons:uml",
+      "level": "Intermediate",
+      "keywords": [
+        "Modeling Language",
+        "Software Design",
+        "Diagrams",
+        "Architecture"
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "simple-icons:bootstrap",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "CSS Framework",
+        "Frontend",
+        "UI"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Français",
+      "fluency": "Langue maternelle"
+    },
+    {
+      "language": "Anglais",
+      "fluency": "B2"
+    },
+    {
+      "language": "Espagnol",
+      "fluency": "Bases"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Projet AP 4 : API",
+      "isActive": true,
+      "description": "Projet pour les cours, création d'une API REST en PHP avec SLIM. Elle est sécurisée avec JWT et permet de gérer les droits des utilisateurs. Elle permet de faire des appels CRUD sur une base de données MySQL qui gère les patients et infirmières d'un hopital.",
+      "highlights": [
+        "🔒 Sécurisée avec JWT",
+        "📦 Gestion des droits des utilisateurs",
+        "📝 Appels CRUD sur une base de données MySQL"
+      ],
+      "github": "https://github.com/ArielFalcon/TODO-list",
+      "stack": {
+        "PHP": "simple-icons:php",
+        "MySQL": "simple-icons:mysql"
+      },
+      "url": "https://www.github.com/MariusDev80/API-PPE4"
+    },
+    {
+      "name": "Signature Mail",
+      "isActive": false,
+      "description": "Création d'un outil de signature mail pour améliorer la communication interne de l'entreprise. L'outil permet de signer les mails avec une signature personnalisée et des bannières.",
+      "highlights": [
+        "📧 Signature mail personnalisée",
+        "🖼️ Bannières personnalisées",
+        "🔒 Sécurisé et simple",
+        "📈 Amélioration de l'image d'entreprise"
+      ],
+      "github": "https://github.com/MariusDev80",
+      "stack": {
+        "PHP": "simple-icons:php",
+        "Symfony": "simple-icons:symfony",
+        "MySQL": "simple-icons:mysql"
+      },
+      "url" : "https://www.github.com/MariusDev80/Signature"
+    }
+  ],
+  "interests": [
+    "Technologie - Actus/vidéos (IA & innovation)",
+    "Musique - Pratique du piano",
+    "Sport - Pratique du foot pendant 10 ans"
+  ],
+  "veille": [
+    {
+      "name" : "Angular",
+      "url" : "https://angular.io/",
+      "description" : "Angular est un framework open-source développé par Google. Il est utilisé pour le développement d'applications web et mobiles. Angular est basé sur TypeScript, un langage de programmation open-source développé par Microsoft.",
+      "recap" : "",
+      "news" : [
+        "🆕 Angular 13 est sorti",
+        "✨ Nouvelles fonctionnalités de Angular Material",
+        "🌿 Angular Ivy : le nouveau compilateur de Angular"
+      ],
+      "tools" : [
+        "🔔 Google Alerts",
+        "📖 Feedly",
+        "🐦 Twitter",
+        "👽 Reddit"
+      ]
+    },
+    {
+      "name": "PHP",
+      "url": "https://www.php.net/",
+      "description": "PHP is a popular general-purpose scripting language that is especially suited to web development. Fast, flexible and pragmatic, PHP powers everything from your blog to the most popular websites in the world.",
+      "recap" : "",
+      "news": [
+        "🆕 PHP 8.1 is released",
+        "✨ New features in PHP 8.1",
+        "🔧 Performance improvements in PHP 8.1"
+      ],
+      "tools": [
+        "🔔 Google Alerts",
+        "📖 Feedly",
+        "🐦 Twitter",
+        "👽 Reddit"
+      ]
+    },
+    {
+      "name": "Intelligence Artificielle",
+      "url": "https://fr.wikipedia.org/wiki/Intelligence_artificielle",
+      "description": "L'intelligence artificielle (IA) est l'ensemble des théories et des techniques mises en œuvre en vue de réaliser des machines capables de simuler l'intelligence humaine.",
+      "recap" : "",
+      "news": [
+        "🆕 GPT-4 est sorti",
+        "✨ Nouvelles avancées en apprentissage profond",
+        "🌿 IA et éthique : les nouveaux défis"
+      ],
+      "tools": [
+        "🔔 Google Alerts",
+        "📖 Feedly",
+        "🐦 Twitter",
+        "👽 Reddit",
+        "📺 YouTube"
+      ]
+    }
+
+
+  ]
+}
