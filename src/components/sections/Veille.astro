@@ -11,54 +11,54 @@ import { veille } from '@cv'
         veille && veille.map(
         ({ name, url, description, recap, news, tools }) => {
             return (
-            <div
-            role="contentinfo"
-            class="grid-span-1 group relative flex min-h-80 flex-col overflow-hidden rounded-md bg-skin-button-muted/50 p-5 shadow-sm ring-1 ring-skin-muted sm:hover:ring-2 sm:hover:ring-skin-hue sm:hover:bg-skin-muted transition-all duration-250 ease-in-out"
-            >
-            <div class="flex items-center gap-[6px]">
-                <Icon data-ccursor="lift" name="mdi:file" class="size-4" />
-                  <a
-                    class="group flex items-center gap-[6px] text-lg decoration-dotted underline-offset-[5px] hover:text-skin-hue hover:underline transition-all sm:hover:cursor-none"
-                    href={url}
-                    title={`Ver ${name}`}
-                    target="_blank"
-                  >
-                    {name}
-                    <span class="text-skin-hue transition ease-linear group-hover:-translate-y-0.5 group-hover:translate-x-0.5">
-                      <Icon name="ri:arrow-up-line" class="rotate-45" />
-                    </span>
-                  </a>
-            </div>
+                <div
+                    role="contentinfo"
+                    class="grid-span-1 group relative flex min-h-80 flex-col overflow-hidden rounded-md bg-skin-button-muted/50 p-5 shadow-sm ring-1 ring-skin-muted sm:hover:ring-2 sm:hover:ring-skin-hue sm:hover:bg-skin-muted transition-all duration-250 ease-in-out"
+                    >
+                    <div class="flex items-center gap-[6px]">
+                        <Icon data-ccursor="lift" name="mdi:file" class="size-4" />
+                        <a
+                            class="group flex items-center gap-[6px] text-lg decoration-dotted underline-offset-[5px] hover:text-skin-hue hover:underline transition-all sm:hover:cursor-none"
+                            href={url}
+                            title={`Ver ${name}`}
+                            target="_blank"
+                        >
+                            {name}
+                            <span class="text-skin-hue transition ease-linear group-hover:-translate-y-0.5 group-hover:translate-x-0.5">
+                            <Icon name="ri:arrow-up-line" class="rotate-45" />
+                            </span>
+                        </a>
+                    </div>
 
-            <p data-ccursor="noPadding" class='relative z-10 py-3 text-sm text-skin-base'>
-                {description}
-            </p>
-
-
-            <p data-ccursor="noPadding" class='relative z-10 py-3 text-sm text-skin-base'>
-                {recap}
-            </p>
-            
-            News :
-            <ul class='z-10 mt-1 text-sm'>
-                {news && news.map((item) => {
-                return <li data-ccursor class="w-max">{item}</li>;
-                })}
-            </ul>
+                    <p data-ccursor="noPadding" class='relative z-10 py-3 text-sm text-skin-base'>
+                        {description}
+                    </p>
 
 
+                    <p data-ccursor="noPadding" class='relative z-10 py-3 text-sm text-skin-base'>
+                        {recap}
+                    </p>
+                    
+                    News :
+                    <ul class='z-10 mt-1 text-sm'>
+                        {news && news.map((item) => {
+                        return <li data-ccursor class="w-max">{item}</li>;
+                        })}
+                    </ul>
 
-            <ul class="flex print:hidden flex-wrap gap-2 mt-4" aria-label="Tools used">
-                {tools && tools.map((tool) => (
-                <li data-ccursor="lift" class="border-skin-hue/60 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs backdrop-blur-sm group/stack">
-                    <span class="flex gap-1"></span>
-                    <span class="group-hover/stack:text-skin-hue transition-all duration-200">{tool}</span>
-                    </span>
-                </li>
-                ))}
-            </ul>
-            </div>
-            );
+
+
+                    <ul class="flex print:hidden flex-wrap gap-2 mt-4" aria-label="Tools used">
+                        {tools && tools.map((tool) => (
+                        <li data-ccursor="lift" class="border-skin-hue/60 text-skin-hue print:p-0 print:bg-transparent print:text-zinc-800 flex gap-1 items-center border-solid print:border-none border rounded-md px-2 py-0.5 text-xs backdrop-blur-sm group/stack">
+                            <span class="flex gap-1"></span>
+                            <span class="group-hover/stack:text-skin-hue transition-all duration-200">{tool}</span>
+                            </span>
+                        </li>
+                        ))}
+                    </ul>
+                </div>
+            )
         }
         )
     }
