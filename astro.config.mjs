@@ -28,7 +28,5 @@ export default defineConfig({
         Passed: async () => true,   // https://github.com/PlayForm/Compress/issues/376
       },
     })
-  ],
-  output: "hybrid",
-  adapter: vercel(),
+  ]
 });
